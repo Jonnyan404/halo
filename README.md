@@ -1,14 +1,10 @@
 > 这里是第三方镜像,补充一下官方未上线的arm版本.
----
-> 官方项目地址:<https://github.com/halo-dev/halo>
 
-> 官方安装教程:https://halo.run/archives/install-quick-start.html
-
----
-
+- 官方项目地址:<https://github.com/halo-dev/halo>
+- 官方安装教程:https://halo.run/archives/install-quick-start.html
 - Telegram群: https://t.me/HaloBlog
 
-### 任何使用问题  telegram 群 @jonnyan
+**关于此镜像的使用问题  telegram 群 @jonnyan**
 
 ## 这里支持 arm64/amd64 双版本.
 
