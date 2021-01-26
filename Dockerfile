@@ -10,4 +10,4 @@ RUN set -x \
 
 USER halo
 
-CMD ["java","-jar","/app/halo.jar"]
+ENTRYPOINT ["java","-jar","/app/halo.jar"]
