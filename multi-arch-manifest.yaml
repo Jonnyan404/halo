@@ -1,10 +1,10 @@
 image: jonnyan404/halo:latest
 manifests:
-  - image: jonnyan404/halo:latest-amd64
+  - image: jonnyan404/halo:amd64
     platform:
       architecture: amd64
       os: linux
-  - image: jonnyan404/halo:latest-arm64
+  - image: jonnyan404/halo:arm64
     platform:
       architecture: arm64
       os: linux
