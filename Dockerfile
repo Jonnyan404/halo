@@ -1,6 +1,10 @@
+
 FROM alpine
 LABEL maintainer="www.mrdoc.fun"
-ENV TZ=Asia/Shanghai
+ENV TZ=Asia/Shanghai \
+    JVM_XMS="256m" \
+    JVM_XMX="256m" \
+    JVM_OPTS=""
 ARG VER=1.3.2
 WORKDIR /app
 RUN set -x \
@@ -10,4 +14,4 @@ RUN set -x \
 
 USER halo
 
-ENTRYPOINT ["java","-jar","/app/halo.jar"]
+ENTRYPOINT java -Xms${JVM_XMS} -Xmx${JVM_XMX} ${JVM_OPTS} -Djava.security.egd=file:/dev/./urandom -server -jar /app/halo.jar
