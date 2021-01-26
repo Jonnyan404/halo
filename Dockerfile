@@ -1,5 +1,5 @@
 
-FROM alpine
+FROM amd64/alpine
 LABEL maintainer="www.mrdoc.fun"
 ENV TZ=Asia/Shanghai \
     JVM_XMS="256m" \
